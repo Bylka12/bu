@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+/*{
+padding: 0;
+margin: 0;}*/
+
+
+body{ background: rgb(194, 191, 191);
+    
+color:rgb(23, 23, 24);
+font-size: 18px;
+font-weight:700;
+font-family:font-family: 'Roboto', sans-serif;;
+}
+
+a{
+color: rgba(13, 58, 44, 0.849);
+text-decoration:none;
+
+
+
+}
+a:hover{text-decoration-line: underline; color: black;}
+a:active{color:red;}
+a:visited{color:rgb(102, 26, 102);}
+
+
+.avatar{width: 400px;
+border-radius: 40px;
+box-shadow:15px 10px 14px rgb(126, 123, 119);
+display:block;
+margin:auto;
+}
+
+.info{
+    color: rgb(29, 29, 27);
+    font-style: italic;
+    font-weight: normal;
+    text-decoration:none   ;
+    letter-spacing: normal;
+    text-transform: capitalize;
+    word-spacing: none;
+    text-align: center;
+}
+@media(max-width:700px;){
+    .info{
+        display: block;
+    }
+
+}
+
+/*.yc{
+background-color: darkkhaki;
+color: rgb(4, 61, 61);
+padding: 15px;
+margin: 10px;
+border: red 5px dotted;
+}
+.vse{max-width: 800px;
+    margin: auto;
+}*/
+
+
+.bg-yelow{ background-color: #fff9dc;}
+.bg-green{ background-color: #e5ffe7;}
+.bg-red{ background-color: #ffe5e5;}
+
+.card{border-radius: 40px;
+border: 15px;
+margin-bottom: 28px;
+padding: 30px;}
+
+.info{ margin-bottom: 28px;}
+
+.ytr{
+padding: 15px;
+}
+
+/*.namey{margin-bottom: 25px;
+padding: 1px;}*/
+ 
+.ytr li{
+color: violet;
+margin-bottom: 10px;
+border-bottom: 2px solid grey;
+
+}
+
+.tabl td:nth-child(2){color: rgb(236, 135, 135);
+
+}
+/*.tabl tr:nth-child(even){background-color: hotpink;}*/
+.gry label{
+display:block;
+font-size: 30px;
+
+}
+.gry input,.gry textarea{
+width: 100%;
+box-sizing: border-box;
+border: none;
+background: transparent;
+border-bottom: 1px solid rgb(114, 76, 76);
+font-family:inherit;
+outline:none;
+}
+
+.qow{
+display:flex;
+margin-bottom: 20px;
+
+}
+ .qow>.gry{
+     width: 50%;
+     margin-right: 20px
+ }
+
+
+.btn{background: violet;
+padding: 15px ,15px;
+color: thistle;
+border: none;
+font-family: inherit;
+cursor: pointer;
+width: 25%;
+}
+
